@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background-image: url('./assets/pexels-stayhereforu-15386483.jpg');
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+    /*efeito embaçado*/
+}
+
+.loading-text {
+    font-size: 3.13rem;
+    color: #fff;
+}
